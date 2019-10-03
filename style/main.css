@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: #C8B8FF;
+}
+h1{
+    color: #AA8939;
+}
+h2{
+    color: #609732;
+}
+a{
+    color: #CC5200;
+}
+nav a{
+    color: #FF0018;
+    
+}
+.byline{
+    color: rgba(0,0,220,0.5);
+}
+
+#page-copyright{
+    color: #FFE25A;   
+}
