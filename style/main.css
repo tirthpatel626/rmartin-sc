@@ -48,7 +48,7 @@ figure img{
 }
 
 footer hr{
-    max-width:50%;
+    width:50vw;
     min-width:300px;
     margin-top: 3em;
     margin-bottom: 2em;
