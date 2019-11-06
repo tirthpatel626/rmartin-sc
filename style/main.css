@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: #2decfd;  
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -17,6 +22,7 @@ body{
     border-bottom:1px solid rgba(0,0,0,0.3);
     background-color: #0be941;
     box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    
 }
 
 .byline{
@@ -27,6 +33,7 @@ body{
 
 .bio p{
     text-indent: 3em;
+   
 }
 
 #page-copyright{
@@ -94,18 +101,37 @@ h2{
     color: transparent;
 }
 
+header{
+    border-top: 4px solid rgba(0,0,0,0.1);
+    margin-left: -2em;
+    margin-right: -2em;
+}
 
-header a {
+
+header a{
     color: #f0f; 
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: block;
+    border-top:4px solid transparent;
+
+
+}
+nav a:hover{
+    border-top: 4px solid #009;
 }
 
 header nav li{
     list-style: none;
+    float: left;
 }
 
 header nav ul{
     margin:0;
     padding:0;
+    float: right;
 }
 
 ol li{
@@ -116,4 +142,43 @@ ol li{
 ul li{
     list-style: circle;
     list-style-position:inside;
+}
+.mugshot{
+    float: right;
+    position: relative;
+    top: -1em;
+}
+.paperclip{
+    background: url("../images/paperclip.png");
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    
+    position: absolute;
+    top: -10px;
+    right: 7px;
+        
+}
+.favourites{
+    clear: right;
+}
+nav{
+    overflow: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-bottom: 1px dotted rgba(0,0,0,0.3);
+    margin-top: -4px;
+}
+.back-to-top{
+    text-align: right;
+    margin-right: -0.5em;
+    opacity: 0.5;
+}
+.back-to-top:hover{
+    opacity: 1;
+}
+.back-to-top a{
+    position: absolute;
+    margin-bottom:3.5em;
+    bottom:3.5em;
 }
