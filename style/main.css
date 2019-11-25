@@ -267,25 +267,25 @@ img{
         border-top: 5px solid #000;
         margin-top: auto;
         position: relative;
+        margin-top: 1em;
     }
     .burger::before,
     .burger::after{
         content: "";
         position: absolute;
         width: 40px;
-        margin-left: -20px;
         height: 5px;
         border-top: 5px solid #000;
         margin-top: 0;
 }
     .burger::before{
-        top:-16px;
+        top:5px;
     }
     .burger::after{
-        top:7px;
+        top:15px;
     }
-    .burger:hover{
-        cursor:pointer;
+    .burger {
+        cursor: pointer;
     }
 }
 
